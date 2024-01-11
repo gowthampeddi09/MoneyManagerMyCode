@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.past-history {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  color: #1e293b;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.delete-icon {
+  height: 15px;
+  width: 15px;
+}

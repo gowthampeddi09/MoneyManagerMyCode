@@ -1,0 +1,96 @@
+/* Write your CSS here */
+.money-manager-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: flex-start;
+}
+
+.user-details-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 100%;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 17px;
+}
+
+.user-name {
+  color: #475569;
+  font-size: 29px;
+  font-weight: 770;
+}
+
+.greetings {
+  color: #475569;
+  font-size: 20px;
+}
+
+.greetings-span-element {
+  color: #0b69ff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-transaction-details {
+  display: flex;
+  margin-top: 17px;
+}
+.form {
+  border: solid 1px;
+  border-color: #7e858e;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin-right: 17px;
+}
+
+.form-heading {
+  color: #7e858e;
+  font-size: 16px;
+  font-weight: 790;
+}
+
+.label {
+  color: #cbd5e1;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.input {
+  height: 35px;
+  width: 250px;
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 7px;
+  height: 35px;
+  width: 55px;
+  margin-top: 8px;
+}
+
+.history-container {
+  display: row;
+  border: 1px solid;
+  border-color: #7e858e;
+  display: flex;
+  flex-direction: column;
+}
+
+.past-history {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  color: #1e293b;
+  font-size: 12px;
+  margin-right: 8px;
+}
